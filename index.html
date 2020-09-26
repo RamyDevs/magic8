@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/styles/styles.css" />
+		<title>Magic 8 Ball</title>
+	</head>
+	<body>
+		<div id="container">
+			<form method="get" id="form">
+				<input type="text" id="question" placeholder="Ask me any question..." />
+				<input type="submit" id="sub" value="Spin" />
+			</form>
+
+			<div id="answer">
+				<p class="answrtxt" id="answrP"></p>
+			</div>
+			<div id="ball">
+				<div id="ball-circle">
+					<p class="eight">8</p>
+				</div>
+			</div>
+		</div>
+		<script src="assets/scripts/function.js"></script>
+		<script src="assets/scripts/app.js"></script>
+	</body>
+</html>
